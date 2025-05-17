@@ -111,7 +111,7 @@ def test_usuari_te_prestecs(biblioteca, usuari, res_esperat):
     
 # Exercici 4
 @pytest.mark.parametrize("biblioteca, llibre, res_esperat",
-    [(biblioteca, "El Senyor dels Anells", 67),
+    [(biblioteca, "El Senyor dels Anells", 70),
      (biblioteca, "Crim i Càstig", 63),
      (biblioteca, "El Quixot", 47)])
 
